@@ -1,0 +1,5 @@
+Dia 17/05/22:
+	-Creo la carpeta y subcarpetas, añadiendo los .html .css y .js
+	-comienzo a dar forma en el html y en el css del aspecto de la pagina,
+	creando los contenedores y los objetos interactuables del juego
+	- otorgo caracteristicas de draggablr y droppable en los objetos y contenedores

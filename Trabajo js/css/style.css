@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(252, 252, 246);
+    min-height: 100vh;
+    margin: 0;
+    /* display: flex;
+    justify-content: space-around;
+    align-items:center; */
+}
+
+.cajon{
+    background-color: rgba(240, 248, 255, 0.758);
+    height: 900px;
+    width: 550px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: black;
+    top: 15%;
+}
+
+.calamar{
+    background-color: chocolate;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+}
+
+#camarillo{
+    background-color: rgb(238, 224, 132);
+    position: absolute;
+    left: 0%;
+}
+
+#cmorado{
+    background-color: rgb(131, 76, 131);
+    position: absolute;
+    right: 0%;
+}
