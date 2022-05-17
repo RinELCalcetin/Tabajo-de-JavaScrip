@@ -1,1 +1,7 @@
-$(".calamar").draggable()
+$(function(){
+    $(".calamar").draggable()
+
+    $(".cajon").droppable()
+
+})
+

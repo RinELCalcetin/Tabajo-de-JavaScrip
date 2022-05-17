@@ -2,13 +2,11 @@ body{
     background-color: rgb(252, 252, 246);
     min-height: 100vh;
     margin: 0;
-    /* display: flex;
-    justify-content: space-around;
-    align-items:center; */
+    overflow: hidden;
 }
 
 .cajon{
-    background-color: rgba(240, 248, 255, 0.758);
+
     height: 900px;
     width: 550px;
     border-width: 20px;
@@ -24,14 +22,36 @@ body{
     position: absolute;
 }
 
-#camarillo{
+#cajaA{
     background-color: rgb(238, 224, 132);
     position: absolute;
     left: 0%;
 }
 
-#cmorado{
+#cajaM{
     background-color: rgb(131, 76, 131);
     position: absolute;
     right: 0%;
+}
+
+#camarillo{
+    background-color: rgb(217, 210, 151);
+}
+
+
+#cmorado{
+    background-color: lightcoral;
+
+}
+
+#puntos{
+    
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    right: 20px;
+    top: 30px;
 }
