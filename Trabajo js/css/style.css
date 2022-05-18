@@ -1,37 +1,67 @@
 body{
-    background-color: rgb(252, 252, 246);
+    background-color: rgb(211, 238, 215);
     min-height: 100vh;
     margin: 0;
     overflow: hidden;
+    
 }
 
+/* CONTENEDORES */
 .cajon{
-
+    
     height: 900px;
     width: 550px;
-    border-width: 20px;
+    /* border-width: 20px;
     border-style: solid;
-    border-color: black;
+    border-color: black; */
     top: 15%;
+    z-index: 0;
+
 }
 
+#cajaA{
+    background-color: rgba(238, 224, 132, 0.666);
+    position: absolute;
+    left: 1%;
+}
+
+#cajaM{
+    background-color: rgba(131, 76, 131, 0.785);
+    position: absolute;
+    right: 1%;
+}
+
+#cuerda{
+    position: absolute;
+    width: 105%;
+    left: -3%;
+    top: -2%;
+    opacity: 95%;
+    z-index: index 1; ;
+}
+
+/* CALAMARES */
+
+#centro{
+    background-color: rgb(0, 255, 55);
+    position: absolute;
+    left: 22.5%;
+    top: 0;
+    width:1405px ;
+    height: 1300px;
+    z-index: -1;
+    overflow: hidden;
+}
 .calamar{
     background-color: chocolate;
     width: 120px;
     height: 120px;
-    position: absolute;
-}
-
-#cajaA{
-    background-color: rgb(238, 224, 132);
-    position: absolute;
-    left: 0%;
-}
-
-#cajaM{
-    background-color: rgb(131, 76, 131);
-    position: absolute;
-    right: 0%;
+    position: relative;
+    left: 45%;
+    top: 0;
+    z-index: 3;
+    
+    
 }
 
 #camarillo{
@@ -44,6 +74,20 @@ body{
 
 }
 
+/* Fondo */
+
+#fondo{
+    z-index: -3;
+    min-height: 100vh;
+    background-color: aqua;
+    position: relative;
+}
+#fondoimg{
+    position: absolute;
+    width: 100%;
+}
+/* INTERFAZ */
+
 #puntos{
     
     font-size: 100px;
@@ -52,6 +96,17 @@ body{
     position: absolute;
     align-items: center;
     justify-content: center;
-    right: 20px;
+    right: 2%;
+    top: 30px;
+}
+
+#nivel{
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    left: 2%;
     top: 30px;
 }

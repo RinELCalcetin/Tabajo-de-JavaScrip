@@ -3,3 +3,8 @@ Dia 17/05/22:
 	-comienzo a dar forma en el html y en el css del aspecto de la pagina,
 	creando los contenedores y los objetos interactuables del juego
 	- otorgo caracteristicas de draggablr y droppable en los objetos y contenedores
+
+Dia 18/05/22:
+	- Avanzo el scrip del movimiento, este se superpone con el codigo de draggable, por lo que tendre que buscarle una solucion
+	-Cambio un poco la estetica de la pagina, añadiendo el fondo y los marcos de los contenedores
+	
